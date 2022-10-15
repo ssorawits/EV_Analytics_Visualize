@@ -133,6 +133,50 @@
 สรุปหากต้องการเลือกหุ้นเพียงแค่ 1 ตัวระหว่าง Tesla และ BYD พบว่า "BYD น่าลงทุนมากกว่า Tesla ในระยะยาว" แต่สำหรับตัวกระผมเองคงจะลงทุนทั้ง 2 ตัวไปพร้อมๆ กัน และต้องการหาหุ้น EV Car อีก 3 ตัว เพื่อนำมาจัดพอร์ตการลงทุนร่วมกับสินทรัพย์อื่นๆ ซึ่งจะนำมาสู่ประเด็นในการหาหุ้น EV Car ในหัวข้อถัดไป
 
 
+## Stock Screen
+
+ก่อนที่จะไปทำ Portfolio Optimization เพื่อหาสัดส่วนการลงทุนในสินทรัพย์ต่างๆ ที่เหมาะสม เรามาเริ่มจากการหาหุ้น EV Car หรือหุ้นกลุ่มธุรกิจยานยนต์กันอีก 3 ตัวก่อนดีกว่า
+โดย Dataset ที่จะนำมาพิจารณานั้นมาจาก Refinitiv Eikon ซึ่งประกอบไปด้วยบริษัททั่วโลกที่ทำธุรกิจเกี่ยวกับ Auto Truck Manufacturers จำนวน 219 บริษัท
+
+เกณฑ์ในการคัดเลือกหลักทรัพย์
+1. เลือกบริษัทที่มี Market Cap สูงสุด 100 ลำดับ
+2. ตัดบริษัทที่มีข้อมูลไม่สมบูรณ์
+3. คำนวณ Upside จากราคาในปัจจุบัน - Target Price
+4. เลือกบริษัทโดยใช้เกณฑ์
+- มี Upside >= ค่า Median
+- มี Forward EPS Growth >= ค่า Median
+- มี Forward P/S Ratio <= ค่า Median
+5. จากนั้นเรียงลำดับตาม Upside
+6. เลือกมา 3 บริษัทเพื่อจะไปลงทุนกับ Tesla Byd และสินทรัพย์อื่นๆ
+7. จำลองสัดส่วนการลงทุนที่เหมาะสม โดยใช้ Modern Portfolio theory method
+
+จาก Condition ที่กำหนด สามารถคัดเลือกบริษัทจาก 219 บริษัท เหลือเพียง 10 บริษัท ดังนี้
+
+![image](https://user-images.githubusercontent.com/99993025/195966866-fa194611-478c-4a6f-b48c-8619ece100f1.png)
+
+* Upside สูงสุด 3 ลำดับได้แก่
+- Xpeng Inc	
+- K Car Co Ltd	
+- Geely Automobile Holdings Ltd	
+แต่จะทำการตัด K Car ซึ่งเทรดอยู่ในตลาดหุ้นเกาหลีออก เนื่องจากความไม่สะดวกในการลงทุน และทำการเพิ่มหุ้น Aston Martin ที่อยู่ในดำดับถัดไปแทน
+
+## Portfolio Optimization
+
+การทำ Portfolio Optimization ณ ที่นี้จะใช้ Modern Portfolio theory method โดยจะทำการลงทุนในบริษัทที่ทำธุรกิจเกี่ยวกับ EV Car / Auto Truck Manufacturers Industry 5 บริษัท ซึ่งได้แก่ Tesla, BYD, Xpeng In, Geely Automobile Holdings Ltd และ Aston Martin อีกทั้งยังมีการผสมสินทรัพย์อื่นๆ เพิ่มเติมเพื่อกระจายความเสี่ยง ซึ่งได้แก่ vt, ixj, igf และ reet
+
+![image](https://user-images.githubusercontent.com/99993025/195967102-1b0676b8-234c-4798-a833-91c9b6166f84.png)
+
+ผลการทำ Portfolio Optimization ได้แนวทางในการลงทุน 3 พอร์ตด้วยกัน ซึ่งได้แก่
+1. Minimum Variance Portfolio : เป็นพอร์ตที่ให้ความผันผวนต่ำ สามารถคาดหวังผลตอบแทนได้ที่ 10.46% ต่อปี
+2. Maximun Return Portfolio : เป็นพอร์ตที่เน้นสร้างผลตอบแทน สามารถคาดหวังผลตอบแทนได้ที่ 37.10% ต่อปี
+3. Maximun Sharpe Portfolio : เป็นพอร์ตที่มีผลตอบแทนเทียบกับความเสี่ยงดีที่สุด สามารถคาดหวังผลตอบแทนได้ที่ 28.99% ต่อปี
+โดยทั้ง 3 พอร์ตมีสัดส่วนการลงทุนในสินทรัพย์ประเภทต่างๆ ดังนี้
+
+![port_w](https://user-images.githubusercontent.com/99993025/195967119-9011a737-77e0-4278-b133-3143445fe141.png)
+![port_re](https://user-images.githubusercontent.com/99993025/195967129-7217a564-837a-4688-b0c4-3c68ed2b9030.png)
+
+
+
 
 
 
