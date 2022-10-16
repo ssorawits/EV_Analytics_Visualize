@@ -64,59 +64,52 @@
 
 ### 2. Net Income
 
-![income](https://user-images.githubusercontent.com/99993025/195965782-adca8e90-bb90-45a2-8773-f4222f6cb762.png)
+![net_income](https://user-images.githubusercontent.com/99993025/196056304-3d586338-6860-4d58-bd31-f306dd6833d6.png)
 
 
 ### 3. EPS & EPS Growth
 
-![eps](https://user-images.githubusercontent.com/99993025/195965822-d879c399-8414-4076-8a74-bc0c71fc1cd9.png)
+![eps](https://user-images.githubusercontent.com/99993025/196056318-77e5d3e1-2971-43ae-a6fc-3ed0d072a41e.png)
 
 
 ### 4. EBITDA Margin
 
-![ebit](https://user-images.githubusercontent.com/99993025/195965843-9c8b4e00-d676-4e15-b54c-0f1e4366a308.png)
+![ebitda](https://user-images.githubusercontent.com/99993025/196056331-4a757ccf-9080-46a9-896a-9b710722be4b.png)
 
 
 ### 5. ROA
 
-![roa_t](https://user-images.githubusercontent.com/99993025/195965860-1f8bef44-e9dd-4ce7-8ca7-6b9e48443377.png)
-![roa_b](https://user-images.githubusercontent.com/99993025/195965864-437c8553-1bc5-435c-8c91-915d421ff497.png)
+![roa](https://user-images.githubusercontent.com/99993025/196056358-820f6270-4427-4d46-8fd6-e4dd4abb4849.png)
 
 
 ### 6. ROE
 
-![roe-t](https://user-images.githubusercontent.com/99993025/195965886-7b77ebdf-0fbc-4db9-81db-64b4fdf33a15.png)
-![roe-b](https://user-images.githubusercontent.com/99993025/195965890-2658d9cd-72fc-4788-a663-2a4796f3af41.png)
+![roe](https://user-images.githubusercontent.com/99993025/196056367-386f31ab-c2e9-4eca-ac27-9389ce98b9d2.png)
 
 
-### 7. P/S Ratio Compare
+### 7. P/S Ratio
 
-![ps](https://user-images.githubusercontent.com/99993025/195965937-ff581492-73ea-44d2-ae1b-202e75e16cfe.png)
-
-
-### 8. EPS Growth Compare
-
-![epsg](https://user-images.githubusercontent.com/99993025/195966148-e4062e75-f119-4469-9c2d-6a67fc928704.png)
+![ps](https://user-images.githubusercontent.com/99993025/196056429-fb9e1bfc-90e7-48a8-9854-fc677ec80167.png)
 
 
-### 9. Foeward EPS Growth & PS Ration Compare
+### 8. Foeward EPS Growth & PS Ration Compare
 
 เปรียบเทียบระหว่าง Financial ratio 2 ตัว นั้นคือ
 *	Forward EPS Growth ซึ่งจะเป็นหนึ่งใน Guidance ที่จะบอกถึงการเติบโตของกำไรต่อหุ้นของกิจการ
 *	Price to sale ratio ซึ่งจะบอกถึงความถูกแพงของกิจการเบื้องต้น และเหมาะสมกับหุ้น Growth มากกว่าการใช้ PE Ratio 
 *	พบว่า ไม่ว่าจะเป็นข้อมูลคาดการ์ณของปีนี้, ปีหน้า, และปีถัดไป นั้น BYD ก็ยังคงเหนือกว่า Tesla อย่างชัดเจน ทั้งในแง่ของ Forward EPS Growth ที่สูงกว่า และ Price to sale ที่ต่ำกว่า ดังรูป
 
-![eps_ps](https://user-images.githubusercontent.com/99993025/195966208-24c67f43-81c0-4a90-b8bc-2ea40862bcc5.png)
+![eps_ps](https://user-images.githubusercontent.com/99993025/196056470-d0ac1ed7-0652-45f0-a819-75cf0b51183a.png)
 
 
-### 10. Foeward PE Growth & PS Ration Compare
+### 9. Foeward PE Growth & PE Ration Compare
 
 จากการเปรียบเทียบกันโดยใช้ 2022-2024 Forward EPS Growth และ PE Ratio พบว่า"BYD เป็นหุ้นที่มีคุณภาพดีกว่า Tesla" เนื่องจาก Forward EPS Growth สูงกว่า อีกทั้งยังมี Forward PE Ratio ที่ต่ำกว่า
 
-![rps_pe](https://user-images.githubusercontent.com/99993025/195966286-c790f99e-4646-48ce-ab59-78ebd20fb5ad.png)
+![rps_pe](https://user-images.githubusercontent.com/99993025/196056483-99534654-130b-4de8-bb52-cbb1257c7a63.png)
 
 
-### 11. Upside 
+### 10. Upside 
 
 เปรียบเทียบ Upside ของ Tesla และ BYD โดยพิจารณาจาก Target Price ที่นักวิเคราะห์ได้ให้ Guidance ไว้
 ก่อนอื่นเราต้องมาพิจารณา Target Price ก่อนว่ามีลักษณะข้อมูลแบบใด เพื่อที่จะได้นำมาใช้ได้อย่างเหมาะสม ซึ่งจากการ Visualisation เราจะพบว่า Target Price Distibution ของ BYD จะมีลักษณะใกล้เคียงกับ Normal Distribution แต่เมื่อพิจารณา Target Price Distibution ของ Tesla พบว่าไม่เป็น Normal Distribution ฉะนั้นจึงจะใช้ Median Target Price มาเพื่อคำนวณ Upside
@@ -128,7 +121,7 @@
 * BYD มี Target Price เท่ากับ 389 CNY หรือคิดเป็น Upside 54.86% จากราคาปัจจุบัน
 * Teslaมี Target Price เท่ากับ 325 USD คิดเป็น Upside 45.77% จากราคาปัจจุบัน
 
-![upside](https://user-images.githubusercontent.com/99993025/195966425-61d0f536-dfef-4e29-94eb-2f44af28c813.png)
+![upside](https://user-images.githubusercontent.com/99993025/196056491-031742d3-ad00-430b-890a-df2bc3431905.png)
 
 สรุปหากต้องการเลือกหุ้นเพียงแค่ 1 ตัวระหว่าง Tesla และ BYD พบว่า "BYD น่าลงทุนมากกว่า Tesla ในระยะยาว" แต่สำหรับตัวกระผมเองคงจะลงทุนทั้ง 2 ตัวไปพร้อมๆ กัน และต้องการหาหุ้น EV Car อีก 3 ตัว เพื่อนำมาจัดพอร์ตการลงทุนร่วมกับสินทรัพย์อื่นๆ ซึ่งจะนำมาสู่ประเด็นในการหาหุ้น EV Car ในหัวข้อถัดไป
 
@@ -158,22 +151,27 @@
 - Xpeng Inc	
 - K Car Co Ltd	
 - Geely Automobile Holdings Ltd	
-แต่จะทำการตัด K Car ซึ่งเทรดอยู่ในตลาดหุ้นเกาหลีออก เนื่องจากความไม่สะดวกในการลงทุน และทำการเพิ่มหุ้น Aston Martin ที่อยู่ในดำดับถัดไปแทน
+แต่จะทำการตัด K Car ซึ่งเทรดอยู่ในตลาดหุ้นเกาหลีออก เนื่องจากความไม่สะดวกในการลงทุนโดยตรง และทำการเลือกบริษัทถัดไปแทน นั่นก็คือ Aston Martin แต่เเนื่องจากความไม่สะดวกในการลงทุนโดยตรงเช่นกัน จึงได้ทำการเลือกบริษัท Yadea Group Holdings Ltd	ซึ่งอยู่ในลำดับที่ 5 และเทรดอยู่ในตลาดฮ่องกงซึ่งมีความสะดวกกว่าในการลงทุนโดยตรงแทน
 
 ## Portfolio Optimization
 
-การทำ Portfolio Optimization ณ ที่นี้จะใช้ Modern Portfolio theory method โดยจะทำการลงทุนในบริษัทที่ทำธุรกิจเกี่ยวกับ EV Car / Auto Truck Manufacturers Industry 5 บริษัท ซึ่งได้แก่ Tesla, BYD, Xpeng In, Geely Automobile Holdings Ltd และ Aston Martin อีกทั้งยังมีการผสมสินทรัพย์อื่นๆ เพิ่มเติมเพื่อกระจายความเสี่ยง ซึ่งได้แก่ vt, ixj, igf และ reet
+การทำ Portfolio Optimization ณ ที่นี้จะใช้ Modern Portfolio theory method โดยจะทำการลงทุนในบริษัทที่ทำธุรกิจเกี่ยวกับ EV Car / Auto Truck Manufacturers Industry 5 บริษัท ซึ่งได้แก่ Tesla, BYD, Xpeng In, Geely Automobile Holdings Ltd และ Yadea Group อีกทั้งยังมีการผสมสินทรัพย์อื่นๆ เพิ่มเติมเพื่อกระจายความเสี่ยง ซึ่งได้แก่ vt, ixj, igf และ reet
 
-![image](https://user-images.githubusercontent.com/99993025/195967102-1b0676b8-234c-4798-a833-91c9b6166f84.png)
+![EF](https://user-images.githubusercontent.com/99993025/196056558-3863a926-f611-4738-ba53-3e53e6e88429.png)
 
 ผลการทำ Portfolio Optimization ได้แนวทางในการลงทุน 3 พอร์ตด้วยกัน ซึ่งได้แก่
-1. Minimum Variance Portfolio : เป็นพอร์ตที่ให้ความผันผวนต่ำ สามารถคาดหวังผลตอบแทนได้ที่ 10.46% ต่อปี
-2. Maximun Return Portfolio : เป็นพอร์ตที่เน้นสร้างผลตอบแทน สามารถคาดหวังผลตอบแทนได้ที่ 37.10% ต่อปี
-3. Maximun Sharpe Portfolio : เป็นพอร์ตที่มีผลตอบแทนเทียบกับความเสี่ยงดีที่สุด สามารถคาดหวังผลตอบแทนได้ที่ 28.99% ต่อปี
+1. Minimum Variance Portfolio : เป็นพอร์ตที่เน้นความผันผวนให้ต่ำที่สุด สามารถคาดหวังผลตอบแทนได้ประมาณ 12% ต่อปี
+2. Maximun Sharpe Portfolio : เป็นพอร์ตที่เน้น Sharp Ratio หรือเน้นสร้างอัตราผลตอบแทนเมื่อเทียบกับความเสี่ยงสูงที่สุด สามารถคาดหวังผลตอบแทนได้ประมาณ 31% ต่อปี
+3. Maximun Return Portfolio : เป็นพอร์ตที่เน้นสร้างผลตอบแทนให้ได้สูงที่สุด สามารถคาดหวังผลตอบแทนได้ประมาณ 42% ต่อปี
+
+![port_re](https://user-images.githubusercontent.com/99993025/196057277-997ca599-6c57-433c-9e11-69341421c6aa.png)
+
+
 โดยทั้ง 3 พอร์ตมีสัดส่วนการลงทุนในสินทรัพย์ประเภทต่างๆ ดังนี้
 
-![port_w](https://user-images.githubusercontent.com/99993025/195967119-9011a737-77e0-4278-b133-3143445fe141.png)
-![port_re](https://user-images.githubusercontent.com/99993025/195967129-7217a564-837a-4688-b0c4-3c68ed2b9030.png)
+![port_w](https://user-images.githubusercontent.com/99993025/196057381-5c1dede1-2326-4f5f-9ac4-8b5bd8327081.png)
+![port_w2](https://user-images.githubusercontent.com/99993025/196057383-5f1fc543-6389-4461-854b-31abbf3fdd5d.png)
+
 
 
 
