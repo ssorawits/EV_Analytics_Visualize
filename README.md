@@ -155,7 +155,19 @@
 
 ## Portfolio Optimization
 
-การทำ Portfolio Optimization ณ ที่นี้จะใช้ Modern Portfolio theory method โดยจะทำการลงทุนในบริษัทที่ทำธุรกิจเกี่ยวกับ EV Car / Auto Truck Manufacturers Industry 5 บริษัท ซึ่งได้แก่ Tesla, BYD, Xpeng In, Geely Automobile Holdings Ltd และ Yadea Group อีกทั้งยังมีการผสมสินทรัพย์อื่นๆ เพิ่มเติมเพื่อกระจายความเสี่ยง ซึ่งได้แก่ vt, ixj, igf และ reet
+การทำ Portfolio Optimization ณ ที่นี้จะใช้ Modern Portfolio theory method โดยดึงข้อมูลราคาหุ้นย้อนหลัง 5 ปี (2017-09-30 ถึง 2022-09-30) ของบริษัทที่ทำธุรกิจเกี่ยวกับ EV Car / Auto Truck Manufacturers Industry 5 บริษัท ซึ่งได้แก่ Tesla, BYD, Xpeng In, Geely Automobile Holdings Ltd และ Yadea Group อีกทั้งยังมีการผสมสินทรัพย์อื่นๆ เพิ่มเติมเพื่อกระจายความเสี่ยง ซึ่งได้แก่
+- Vanguard Total World Stock Index Fund (VT)
+- iShares Global Healthcare ETF (IXJ)
+- iShares Global Infrastructure ETF (IGF)
+- iShares Global REIT ETF (REET)
+
+โดยสินทรัพย์ในพอร์ตทั้งหมด 9 ตัวมีอัตราผลตอบแทนสะสม (Cumulative Returns) 5 ปีย้อนหลัง ดังรูป
+![cumulative_rerturn](https://user-images.githubusercontent.com/99993025/196059274-40d56362-da92-4486-b6fb-f4585327fe44.png)
+
+และมี Correlation ดังนี้
+![corr](https://user-images.githubusercontent.com/99993025/196059302-bc8ce695-03fb-4707-81d6-ea8411e32481.png)
+จะเห็นได้ว่าส่วนใหญ่แล้วหุ้นแต่ละตัวมีความสัมพันธ์กันในระดับกลางถึงต่ำ ยกเว้น ETF ที่เพิ่มเข้ามาทั้ง 4 ตัว ซึ่งส่วนใหญ่แล้วจะลงทุนอยู่ในตลาดหุ้นอเมริกาเป็นหลัก จะมีความสัมพันธ์กันค่อนข้างสูง
+
 
 ![EF](https://user-images.githubusercontent.com/99993025/196056558-3863a926-f611-4738-ba53-3e53e6e88429.png)
 
