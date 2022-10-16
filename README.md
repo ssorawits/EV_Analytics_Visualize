@@ -59,8 +59,7 @@
 
 
 ขณะที่สัดส่วนรายได้ครึ่งปีแรกของปี 2022 นั้นพบว่า BYD มีรายได้จาก 2 ธุรกิจหลัก ซึ่งส่วนใหญ่นั้นเป็น Automobiles and related product and pther products 73.8% และธุรกิจ Mobile handset components, assembly and related sevice and other products 29.2% ซึ่งจริงๆ แล้ว BYD เป็นหนึ่งในซัพพลายเออร์หลักของสมาร์ทโฟนและพีซี NB ทั่วโลก ส่งผลให้เป็นผู้นำในอุตสาหกรรมอิเล็กทรอนิกส์ด้วยเทคโนโลยีที่ล้ำ มี Intelligent processes และบริการโซลูชั่นครบวงจร
-![rev_test](https://user-images.githubusercontent.com/99993025/195965719-795b97a8-4a35-4ad7-83c1-3c9b03eba84d.png)
-
+![rev_byd](https://user-images.githubusercontent.com/99993025/196054054-5fd292ff-92fd-413d-9f8b-2871d0d75d42.png)
 
 ### 2. Net Income
 
