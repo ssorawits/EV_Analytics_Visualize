@@ -55,11 +55,12 @@
 
 เมื่อ Breakdown ไปยังรายได้ของธุรกิจของ Tesla จะพบว่าในครึ่งปีแรกของปี 2022 นั้น Tesla มีรายได้จากธุรกิจ 3 ประเภท ซึ่งได้แก่ Automotive คิดเป็นสัดส่วน 88.2%, Services and other 7.69% และ Energy generation and storage 4.15%
 
-![rev_test](https://user-images.githubusercontent.com/99993025/195965468-db02bd84-dc2c-42e0-9859-9f14dde8af68.png)
+![rev_test](https://user-images.githubusercontent.com/99993025/196054328-11b94a2e-8a67-45b8-ab58-f3e1083cf8ac.png)
 
 
 ขณะที่สัดส่วนรายได้ครึ่งปีแรกของปี 2022 นั้นพบว่า BYD มีรายได้จาก 2 ธุรกิจหลัก ซึ่งส่วนใหญ่นั้นเป็น Automobiles and related product and pther products 73.8% และธุรกิจ Mobile handset components, assembly and related sevice and other products 29.2% ซึ่งจริงๆ แล้ว BYD เป็นหนึ่งในซัพพลายเออร์หลักของสมาร์ทโฟนและพีซี NB ทั่วโลก ส่งผลให้เป็นผู้นำในอุตสาหกรรมอิเล็กทรอนิกส์ด้วยเทคโนโลยีที่ล้ำ มี Intelligent processes และบริการโซลูชั่นครบวงจร
-![rev_byd](https://user-images.githubusercontent.com/99993025/196054054-5fd292ff-92fd-413d-9f8b-2871d0d75d42.png)
+
+![rev_byd](https://user-images.githubusercontent.com/99993025/196054319-9f0a3c19-9ea2-49a4-9120-8ff38823cecc.png)
 
 ### 2. Net Income
 
