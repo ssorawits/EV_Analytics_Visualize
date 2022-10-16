@@ -4,7 +4,7 @@
 
 จากการ Research Data ที่ IEA หรือ International Energy Agency ได้เก็บรวบรวมไว้ พบว่า ยอดขายรถ EV การเติบโตที่เร่งตัวถึง 75.31% CAGR จากจำนวนเพียงไม่กี่พันคันในปี 2010 มาอยู่ที่ 6.53 ล้านคันในปี 2021 ทำให้สัดส่วนยอดขายรถ EV เพิ่มขึ้นมาอยู่ที่ 8.64% ของยอดขายรถยนต์ทั้งหมดในปี 2021 
 
-![image](https://user-images.githubusercontent.com/99993025/195964398-b4dda188-4927-4a35-bc61-15b6b2227130.png)
+![evsale](https://user-images.githubusercontent.com/99993025/196057870-22db94c8-db75-4d86-b9e2-979cf875cc07.png)
 ![image](https://user-images.githubusercontent.com/99993025/195964427-e585bbfe-8487-484b-9eb5-9e842c0a63d3.png)
 ![image](https://user-images.githubusercontent.com/99993025/195964473-b9e40506-20fe-4e59-94c5-22d8ce6f8e37.png)
 
