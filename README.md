@@ -149,17 +149,17 @@ Note: BYD Revenue Converted from CNY to USD at 0.139 exchange rate
 *	Forward EPS Growth ซึ่งจะเป็นหนึ่งใน Guidance ที่จะบอกถึงการเติบโตของกำไรต่อหุ้นของกิจการ
 *	Price to sale ratio ซึ่งจะบอกถึงความถูกแพงของกิจการเบื้องต้น และเหมาะสมกับหุ้น Growth มากกว่าการใช้ PE Ratio 
 *	พบว่า ไม่ว่าจะเป็นข้อมูลคาดการ์ณของปีนี้, ปีหน้า, และปีถัดไป นั้น BYD ก็ยังคงเหนือกว่า Tesla อย่างชัดเจน ทั้งในแง่ของ Forward EPS Growth ที่สูงกว่า และ Price to sale ที่ต่ำกว่า ดังรูป
-*	
+
 ![eps_ps](https://user-images.githubusercontent.com/99993025/196056470-d0ac1ed7-0652-45f0-a819-75cf0b51183a.png)
 
 
-### 9. Foeward PE Growth & PE Ration Compare
+### 2. Foeward PE Growth & PE Ration Compare
 จากการเปรียบเทียบกันโดยใช้ 2022-2024 Forward EPS Growth และ PE Ratio พบว่า"BYD เป็นหุ้นที่มีคุณภาพดีกว่า Tesla" เนื่องจาก Forward EPS Growth สูงกว่า อีกทั้งยังมี Forward PE Ratio ที่ต่ำกว่า
 
 ![rps_pe](https://user-images.githubusercontent.com/99993025/196056483-99534654-130b-4de8-bb52-cbb1257c7a63.png)
 
 
-### 10. Upside 
+### 3. Upside 
 เปรียบเทียบ Upside ของ Tesla และ BYD โดยพิจารณาจาก Target Price ที่นักวิเคราะห์ได้ให้ Guidance ไว้
 ก่อนอื่นเราต้องมาพิจารณา Target Price ก่อนว่ามีลักษณะข้อมูลแบบใด เพื่อที่จะได้นำมาใช้ได้อย่างเหมาะสม ซึ่งจากการ Visualisation เราจะพบว่า Target Price Distibution ของ BYD จะมีลักษณะใกล้เคียงกับ Normal Distribution แต่เมื่อพิจารณา Target Price Distibution ของ Tesla พบว่าไม่เป็น Normal Distribution ฉะนั้นจึงจะใช้ Median Target Price มาเพื่อคำนวณ Upside
 
@@ -180,22 +180,19 @@ Note: BYD Revenue Converted from CNY to USD at 0.139 exchange rate
 
 
 
-
-## Stock Screen
-
-ก่อนที่จะไปทำ Portfolio Optimization เพื่อหาสัดส่วนการลงทุนในสินทรัพย์ต่างๆ ที่เหมาะสม เรามาเริ่มจากการหาหุ้น EV Car หรือหุ้นกลุ่มธุรกิจยานยนต์กันอีก 3 ตัวก่อนดีกว่า
-โดย Dataset ที่จะนำมาพิจารณานั้นมาจาก Refinitiv Eikon ซึ่งประกอบไปด้วยบริษัททั่วโลกที่ทำธุรกิจเกี่ยวกับ Auto Truck Manufacturers จำนวน 219 บริษัท
+## Part 4: Portfolio Optimization
+ก่อนที่จะไปทำ Portfolio Optimization เพื่อหาสัดส่วนการลงทุนในสินทรัพย์ต่างๆ ที่เหมาะสม เรามาเริ่มจากการหาหุ้น EV Car หรือหุ้นใน Auto Truck Manufacturers Industries กันอีก 3 ตัวก่อนดีกว่า โดย Dataset ที่จะนำมาพิจารณานั้นมาจาก Refinitiv Eikon ซึ่งประกอบไปด้วยบริษัททั่วโลกที่ทำธุรกิจเกี่ยวกับ Auto Truck Manufacturers จำนวน 219 บริษัท
 
 เกณฑ์ในการคัดเลือกหลักทรัพย์
 1. เลือกบริษัทที่มี Market Cap สูงสุด 100 ลำดับ
 2. ตัดบริษัทที่มีข้อมูลไม่สมบูรณ์
 3. คำนวณ Upside จากราคาในปัจจุบัน - Target Price
 4. เลือกบริษัทโดยใช้เกณฑ์
-- มี Upside >= ค่า Median
-- มี Forward EPS Growth >= ค่า Median
-- มี Forward P/S Ratio <= ค่า Median
+- มี Upside >= Median Upside
+- มี Forward EPS Growth >= Median Forward EPS Growth
+- มี Forward P/S Ratio <= Median P/S Ratio
 5. จากนั้นเรียงลำดับตาม Upside
-6. เลือกมา 3 บริษัทเพื่อจะไปลงทุนกับ Tesla Byd และสินทรัพย์อื่นๆ
+6. เลือกมา 3 บริษัทที่คาดว่าจะมี Upside สูงสุด เพื่อจะไปลงทุนกับ Tesla BYD และสินทรัพย์อื่นๆ
 7. จำลองสัดส่วนการลงทุนที่เหมาะสม โดยใช้ Modern Portfolio theory method
 
 จาก Condition ที่กำหนด สามารถคัดเลือกบริษัทจาก 219 บริษัท เหลือเพียง 10 บริษัท ดังนี้
